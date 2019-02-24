@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿旭寫字公司</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <link rel="stylesheet" href="./stylesheets/grid.css">
+</head>
+
+<body>
+
+    <!-- heder -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <a href="">
+                        <img src="./images/logo.png" alt="阿旭寫字公司">
+                    </a>
+                </div>
+                <div class="menu-button1">
+                    <span type="button">
+                        三
+                    </span>
+                </div>
+                <input type="checkbox" class="menu-button-checkbox1">
+                <ul class="menu">
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#offer">offer</a></li>
+                    <li><a href="./pages/gallery01.html">gallery</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <li><a href="./pages/shop.html">shop</a></li>
+                </ul>
+
+                <div class="user-login"><i class="fas fa-user"></i>
+                    <input type="checkbox" class="menu-button-checkbox">
+                    <ul class="sub-menu">
+                        <li><a href="./pages/register.html">註冊會員</a></li>
+                        <li><a href="./pages/login.html">會員登入</a></li>
+                        <li><a href="./pages/order.html">訂單查詢</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- slide -->
+    <div class="slider_container">
+        <div>
+            <img src="./images/slide/slide01.jpg" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="./images/slide/slide02.jpg" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="./images/slide/slide03.jpg" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="./images/slide/slide04.jpg" alt="pure css3 slider" />
+        </div>
+        <div>
+            <img src="./images/slide/slide05.jpg" alt="pure css3 slider" />
+        </div>
+    </div>
+
+    <!-- about -->
+    <section class="about_me clearfix" id="about">
+        <div class="container  flex-container justify-content-center align-items-center">
+            <div class="col-left">
+                <img src="./images/about.jpg" alt="">
+            </div>
+            <div class="col-right  flex-container align-items-center">
+                <div class="personal-info">
+                    <h1>
+                        <img id="logo" src="./images/logo.png" alt="阿旭寫字公司">
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus modi ducimus ut nobis
+                        autem
+                        voluptatibus non quisquam facere explicabo quis nesciunt asperiores culpa architecto
+                        quaerat,
+                        fugit deserunt sint beatae nihil provident, iste illo ad. Error nam sapiente numquam sequi
+                        iusto?</p>
+                </div>
+                <div class="social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/AhhXu/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/xu_writingcorp"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- offer -->
+    <section class="offer clearfix" id="offer">
+        <div class="offer-video">
+            <div class="container">
+                <h2>offer</h2>
+                <div class="service  flex-container justify-content-center align-items-center">
+                    <div class="service-item">
+                        <h3><i class="fas fa-pen"></i>寫字設計</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro consequatur, praesentium
+                            omnis
+                            reiciendis rem laboriosam voluptatem exercitationem tempore voluptas animi et eum
+                            placeat
+                            unde
+                            fugit magnam recusandae possimus accusamus dolor.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3><i class="fas fa-book-open"></i>故事隨筆</h3>
+                        <p>Veniam at, doloribus debitis veritatis consequatur dolorem. Incidunt dolorem molestiae
+                            voluptatibus mollitia itaque, omnis laudantium aspernatur porro natus autem accusantium
+                            excepturi voluptate! Quis rerum veniam veritatis amet harum maxime libero.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3><i class="fas fa-handshake"></i>活動合作</h3>
+                        <p>Exercitationem non tenetur a, aperiam incidunt eum minima nostrum assumenda ut eveniet
+                            quidem
+                            magni vel iusto enim ex nulla voluptatem cum ratione placeat dicta unde delectus
+                            possimus!
+                            Vel,
+                            facilis aspernatur.</p>
+                    </div>
+                </div>
+            </div>
+            <video autoplay muted loop id="myVideo">
+                <source src="./images/writing.mp4" type="video/mp4">
+            </video>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact clearfix" id="contact">
+        <div class="container">
+            <h2>contact me</h2>
+            <div class="contact-form">
+                <form action="">
+                    <div class="form-input"><input type="text" name="name" class="form-style" placeholder="Enter Your Name"
+                            required></div>
+                    <div class="form-input"><input type="email" name="email" class="form-style" placeholder="Enter Your Email"
+                            required></div>
+                    <div class="form-input"><textarea name="textarea" id="message" cols="30" row="10" placeholder="Write Message"
+                            required></textarea></div>
+                    <div class="form-submit"><input type="submit" name="submit" value="submit"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container clearfix">
+            <div class="footer-content flex-container justify-content-center align-items-center">
+                <p>&copy; 2018 阿旭寫字公司 | All Rights Reserved.</p>
+                <div class="footer-social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/AhhXu/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/xu_writingcorp"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

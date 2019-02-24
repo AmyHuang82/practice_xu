@@ -1,0 +1,215 @@
+@media screen and (max-width: 585.99px) {
+
+    .container,
+    .items .container {
+        width: 100%;
+        height: auto;
+    }
+
+    .shop-item-price {
+        display: block;
+    }
+
+    #myVideo {
+        display: none;
+    }
+
+    .col-left,
+    .col-right,
+    .service-item,
+    .gallery-item,
+    .shop-item,
+    .login-form,
+    .order-table,
+    .checkout {
+        width: 80%;
+    }
+
+    .offer-video {
+        background-color: white;
+    }
+
+    .last-section {
+        margin-bottom: -50px;
+    }
+
+    .items .col-right {
+        max-height: 100%;
+    }
+
+    .slider_container {
+        height: 55%;
+    }
+
+    .about_me .col-left {
+        display: none;
+    }
+
+    .about_me {
+        padding: 25px 0;
+    }
+
+    #footer p {
+        font-size: 11px;
+    }
+
+
+    /* nav RWD start */
+    nav {
+        display: inline-block;
+        position: relative;
+    }
+
+    #logo a {
+        float: left;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        top: 40px;
+        right: 0;
+        background-color: #F0E8D6;
+    }
+
+    .menu li a {
+        display: block;
+    }
+
+    .menu a {
+        flex-grow: 1;
+    }
+
+    .menu-button1 {
+        display: block;
+        color: black;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 40px;
+        line-height: 40px;
+        width: 53.75px;
+        border: none;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .menu-button1 span {
+        font-size: 20px;
+    }
+
+    .menu-button-checkbox1 {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 40px;
+        width: 53.75px;
+        margin: 0;
+        opacity: 0;
+    }
+
+    .menu-button-checkbox1:checked~.menu {
+        display: block;
+    }
+
+    .user-login {
+        position: fixed;
+        right: 54px;
+    }
+
+    /* nav RWD end */
+
+    /* RWD改變table結構 */
+    .row-table thead {
+        display: none;
+    }
+
+    td {
+        display: block;
+        width: 100%;
+        border: 1px solid #F0E8D6;
+    }
+
+    .row-table td {
+        padding-left: 0;
+    }
+
+    .row-table td:before {
+        content: attr(data-title);
+        display: inline-block;
+        margin-right: 10px;
+        font-weight: bold;
+        background-color: #F0E8D6;
+        height: 100%;
+        width: 30%;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.99px) {
+    .container {
+        width: 720px;
+    }
+
+    #myVideo {
+        height: 100%;
+    }
+
+    .offer-video {
+        padding: 35px 0;
+    }
+
+    .shop-item-price {
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.99px) {
+    .container {
+        width: 960px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        width: 1152px;
+    }
+}
+
+.flex-container {
+    display: flex;
+    /* row代表橫排排列 column代表直排排列 wrap代表換行 */
+    flex-flow: row wrap;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+/* 靠左對齊 */
+.justify-content-start {
+    justify-content: flex-start;
+}
+
+/* 靠右對齊 */
+.justify-content-end {
+    justify-content: flex-end;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+/* 靠上對齊 */
+.align-items-start {
+    align-items: flex-start;
+}
+
+/* 靠下對齊 */
+.align-items-end {
+    align-items: flex-end;
+}

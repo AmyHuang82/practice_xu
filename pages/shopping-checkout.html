@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>阿旭寫字公司</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.2/css/all.css" integrity="sha384-/rXc/GQVaYpyDdyxK+ecHPVYJSN9bmVFBvjA/9eOB+pb3F2w2N6fc5qB9Ew5yIns"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="../stylesheets/style.css">
+    <link rel="stylesheet" href="../stylesheets/grid.css">
+</head>
+
+<body>
+
+    <!-- heder -->
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div id="logo">
+                    <a href="../index.html">
+                        <img src="../images/logo.png" alt="阿旭寫字公司">
+                    </a>
+                </div>
+                <div class="menu-button1">
+                    <span type="button">
+                        三
+                    </span>
+                </div>
+                <input type="checkbox" class="menu-button-checkbox1">
+                <ul class="menu">
+                    <li><a href="../index.html#about">about</a></li>
+                    <li><a href="../index.html#offer">offer</a></li>
+                    <li><a href="./gallery01.html">gallery</a></li>
+                    <li><a href="../index.html#contact">contact</a></li>
+                    <li><a href="./shop.html">shop</a></li>
+                </ul>
+
+                <div class="user-login"><i class="fas fa-user"></i>
+                    <input type="checkbox" class="menu-button-checkbox">
+                    <ul class="sub-menu">
+                        <li><a href="./register.html">註冊會員</a></li>
+                        <li><a href="./login.html">會員登入</a></li>
+                        <li><a href="./order.html">訂單查詢</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- checkout -->
+    <section>
+        <div class="container checkout">
+            <div class="progressBar progress2">
+                <!-- 進度條 -->
+                <div>
+                    <span></span>
+                </div>
+                <!-- 三個圓 -->
+                <span>填單</span>
+                <span>完成</span>
+                <span>確認</span>
+            </div>
+            <form class="checkout-form" action="./shopping-final.html">
+                <div class="form-input">
+                    <div class="data-info">訂購姓名：</div>
+                    <input type="text" placeholder="請輸入訂購人姓名" name="name" required>
+                </div>
+                <div class="form-input">
+                    <div class="data-info">手機號碼：</div>
+                    <input type="tel" name="tel" class="form-style" placeholder="請輸入您的手機號碼" required>
+                </div>
+                <div class="form-input">
+                    <div class="data-info">電子信箱：</div>
+                    <input type="email" name="email" class="form-style" placeholder="請輸入您的Email" required>
+                </div>
+                <div class="form-input">
+                    <div class="data-info">收貨地址：</div>
+                    <input type="text" name="address" class="form-style" placeholder="請輸入您的收貨地址" required>
+                </div>
+                <div class="form-input">
+                    <div class="data-info">付款方式：</div>
+                    <select name="CheckoutWay" required>
+                        <option value="choose">請選擇</option>
+                        <option value="location">貨到付款</option>
+                        <option value="creditcard">信用卡付款</option>
+                    </select>
+                </div>
+                <div class="form-input">
+                    <div class="data-info">信用卡號：</div>
+                    <input type="number" name="creditcard" class="form-style" placeholder="請輸入您的信用卡號">
+                </div>
+                <div class="form-input">
+                    <div class="data-info">備註：</div>
+                    <input type="text" name="address" class="form-style" placeholder="請輸入您的備註">
+                </div>
+
+                <div class="form-submit shopcart-submit"><input type="submit" name="submit" value="submit"></div>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container clearfix">
+            <div class="footer-content flex-container justify-content-center align-items-center">
+                <p>&copy; 2018 阿旭寫字公司 | All Rights Reserved.</p>
+                <div class="footer-social-icon">
+                    <ul>
+                        <li><a href="https://www.facebook.com/AhhXu/"><i class="fab fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/xu_writingcorp"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

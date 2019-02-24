@@ -1,0 +1,10 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace",
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showExpandedAbbreviation": "always",
+    "emmet.showAbbreviationSuggestions": true,
+    "stylelint.enable": true,
+    "css.validate": false,
+    "scss.validate": false
+}
